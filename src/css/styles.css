@@ -4,6 +4,7 @@ body {
     font-family: "Poppins", sans-serif; /* sans serif é o plano b, caso a poppins n carregue*/
     background-image: url("../imagens/background.png");
     background-size: cover; /*impede de ficar repetindo a imagem */
+    background-position: center;
 }
 
 body::before{/*pseudo-elemento, ou seja, criei um elemento atraves do css que fica depois do body, é como se eu colocasse um filtro na imagem*/
